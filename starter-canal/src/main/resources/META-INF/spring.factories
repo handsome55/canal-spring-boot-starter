@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+top.javatool.canal.client.autoconfigure.SimpleClientAutoConfiguration,\
+top.javatool.canal.client.autoconfigure.ClusterClientAutoConfiguration
