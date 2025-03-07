@@ -81,7 +81,7 @@ public abstract class AbstractCanalClient implements CanalClient {
                     connector.ack(batchId);
                 }
             } catch (Exception e) {
-                log.error("canal client 异常", e);
+                log.error("canal client 异常111", e);
             } finally {
                 connector.disconnect();
             }
