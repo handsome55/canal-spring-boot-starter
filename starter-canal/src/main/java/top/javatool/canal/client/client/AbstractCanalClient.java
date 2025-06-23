@@ -82,6 +82,7 @@ public abstract class AbstractCanalClient implements CanalClient {
                     log.info("获取消息 {}", message);
                     log.info("获取消息 {}", message);
                     log.info("获取消息 {}", message);
+                    log.info("获取消息 {}", message);
                     connector.ack(batchId);
                 }
             } catch (Exception e) {
