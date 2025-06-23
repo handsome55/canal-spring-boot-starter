@@ -78,6 +78,7 @@ public abstract class AbstractCanalClient implements CanalClient {
                     if (message.getId() != -1 && message.getEntries().size() != 0) {
                         messageHandler.handleMessage(message);
                     }
+                    log.info("获取消息 {}", message);
                     connector.ack(batchId);
                 }
             } catch (Exception e) {
